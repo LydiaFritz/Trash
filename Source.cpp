@@ -18,7 +18,16 @@ int main() {
 	cin >> a >> b >> c >> d >> e;
 
 	//for testing
-	cout << "The numbers are " << a << " " << b << " " << c << " " << d << " " << e << endl;
+	//cout << "The numbers are " << a << " " << b << " " << c << " " << d << " " << e << endl;
+
+	//find the largest
+	int largest = a;
+	if (b > largest) largest = b;
+	if (c > largest)largest = c;
+	if (d > largest)largest = d;
+	if (e > largest)largest = e;
+
+	cout << "The largest value is " << largest << endl;
 
 
 
