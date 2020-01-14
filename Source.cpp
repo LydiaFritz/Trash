@@ -3,6 +3,7 @@
 //This is my own work.
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -29,6 +30,21 @@ int main() {
 
 	cout << "The largest value is " << largest << endl;
 
+	//find the smallest
+	int smallest = a;
+
+	//part 2
+	//Write a program that calculates and prints 
+	//the sum of the first 50 positive integers that are multiples of 7.
+	int sum = 0;
+	
+	int i = 1;
+	while (i <= 50) {
+		sum = sum + i * 7;
+		i++;
+	}
+
+	cout << "The sum of the first 50 positive multiples of 7 is " << sum << endl;
 
 
 	return 0;
